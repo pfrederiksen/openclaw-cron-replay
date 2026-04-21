@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "openclaw-cron-replay"
-version = "0.1.0"
+version = "0.1.1"
 description = "Replay OpenClaw cron job payloads, prompts, results, and delivery decisions locally."
 readme = "README.md"
 requires-python = ">=3.10"
