@@ -1,0 +1,34 @@
+{
+  "jobs": [
+    {
+      "id": "news-digest",
+      "name": "News Digest",
+      "schedule": "0 8 * * 1-5",
+      "delivery_mode": "announce",
+      "prompt": "Summarize relevant OpenClaw news for the morning digest.",
+      "payload": "{\"topic\":\"openclaw\",\"window\":\"24h\"}"
+    },
+    {
+      "id": "text-return-announcer",
+      "name": "Deploy Window Announcer",
+      "schedule": "0 15 * * 1-5",
+      "delivery_mode": "text_return",
+      "announce": true,
+      "prompt": "Return a concise deploy window status."
+    },
+    {
+      "id": "no-reply-job",
+      "name": "Metrics Collector",
+      "schedule": "*/15 * * * *",
+      "delivery_mode": "NO_REPLY",
+      "prompt": "Collect metrics and do not reply."
+    },
+    {
+      "id": "silent-health-check",
+      "name": "Silent Health Check",
+      "schedule": "*/5 * * * *",
+      "delivery_mode": "silent",
+      "payload": "{\"service\":\"cron-delivery\"}"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Summarize relevant OpenClaw news for the morning digest. Keep the output suitable for direct announcement.

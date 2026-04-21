@@ -1,0 +1,9 @@
+{
+  "jobs": [
+    {
+      "id": "news-digest",
+      "delivery_mode": "NO_REPLY",
+      "prompt": "Summarize relevant OpenClaw news for archival only."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "run_id": "manual:news-digest",
+  "trigger": "manual",
+  "operator": "local-debug",
+  "payload": "{\"topic\":\"openclaw\",\"window\":\"24h\"}"
+}

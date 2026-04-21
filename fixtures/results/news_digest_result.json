@@ -1,0 +1,7 @@
+{
+  "content": "Today in OpenClaw: cron delivery formatting was updated, replay fixtures were added, and digest output stayed concise.",
+  "usage": {
+    "input_tokens": 1200,
+    "output_tokens": 36
+  }
+}

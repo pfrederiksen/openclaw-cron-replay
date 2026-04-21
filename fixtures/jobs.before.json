@@ -1,0 +1,9 @@
+{
+  "jobs": [
+    {
+      "id": "news-digest",
+      "delivery_mode": "announce",
+      "prompt": "Summarize relevant OpenClaw news for the morning digest."
+    }
+  ]
+}
